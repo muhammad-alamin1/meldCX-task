@@ -54,7 +54,7 @@ export default function Devices() {
         };
 
         const response = await axios.post(`http://35.201.2.209:8000/notify`, data, config);
-        console.log(response.status);
+
         if (response.status === 201 || response.status === 200) {
             setSuccess(response.data);
         }
@@ -69,6 +69,11 @@ export default function Devices() {
     return (
         <div>
             <div id="device-screen">
+                {
+                    devices.map(device => (
+                        <div class="circleBase circle1"></div>
+                    ))
+                }
                 <div className="online-devices text-center">
                     <h2>{devices.length}</h2>
                     <span> DEVICES ONLINE</span>

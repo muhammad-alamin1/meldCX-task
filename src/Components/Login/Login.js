@@ -24,7 +24,6 @@ export default function Login() {
                 password
             })
                 .then(success => {
-                    console.log(success);
                     setToken(success.data)
                     setError(``);
                     setSuccess(`Login successfully.!`);
@@ -33,7 +32,6 @@ export default function Login() {
                     }, 1000)
                 })
         } catch (error) {
-            console.log(error);
             setError(`Invalid Credential.`);
             setSuccess("");
         }
