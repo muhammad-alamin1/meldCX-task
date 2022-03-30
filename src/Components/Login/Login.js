@@ -46,12 +46,6 @@ export default function Login() {
         localStorage.setItem('id_token', idToken);
     }
 
-    // get token
-    const getToken = () => {
-        // Retrieves the user token from localStorage
-        return localStorage.getItem('id_token');
-    }
-
     return (
         <div className="" id="login">
             <div className="login-form text-center">
