@@ -1,0 +1,33 @@
+#device-screen {
+  background-color: #ff7043;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.online-devices {
+  color: #fff;
+}
+
+.footer {
+  background-color: #ff7043;
+  text-align: center;
+}
+
+.inside {
+  background-color: #d76845;
+}
+
+.notify-btn,
+.logout-btn {
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  margin-right: 10px;
+}
+
+.logout-btn {
+  background-color: #37474f;
+  color: #fff;
+}

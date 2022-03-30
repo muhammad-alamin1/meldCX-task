@@ -1,0 +1,33 @@
+#login {
+  background-color: rgb(38, 50, 56);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#submit-btn {
+  background-color: rgb(2, 119, 189);
+  color: #fff;
+  width: 100px;
+  border: none;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 6px 6px 6px 0px #000;
+}
+
+.success {
+  color: green;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
